@@ -1,0 +1,67 @@
+{
+  "editor.fontSize": 14,
+  "editor.fontWeight": "500",
+  "workbench.colorTheme": "One Dark Pro Bold",
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.fontAliasing": "antialiased",
+  "editor.wordWrap": "on",
+  "editor.autoIndent": true,
+  "editor.acceptSuggestionOnEnter": "on",
+  "editor.wordBasedSuggestions": true,
+  "files.exclude": {
+    "build/**/*.js": {
+      "when": "$(basename).ts"
+    }
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    ".build/**": true,
+    "out*/**": true,
+    "i18n/**": true,
+    "extensions/**/out/**": true,
+    "test/smoke/out/**": true
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "vue-html": "html",
+    "plaintext": "jade",
+    "handlebars": "html",
+    "cshtml": "html"
+  },
+  "window.zoomLevel": 0,
+  "editor.fontFamily": "Source Code Pro",
+  "terminal.integrated.shell.osx": "zsh",
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontFamily": "source code pro for powerline",
+  "explorer.sortOrder": "type",
+  "workbench.iconTheme": "ayu",
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.tabSize": 2,
+  "editor.detectIndentation": true,
+  "editor.fontLigatures": true,
+  "terminal.integrated.cursorStyle": "line",
+  "prettier.jsxBracketSameLine": true,
+  "workbench.colorCustomizations": {},
+  "git.enableSmartCommit": true,
+  "prettier.disableLanguages": [
+    "vue",
+    "html",
+    "hbs"
+  ],
+  "editor.formatOnSave": true,
+  "materialTheme.fixIconsRunning": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.minimap.enabled": false,
+  "typescript.preferences.quoteStyle": "single",
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "javascript.preferences.quoteStyle": "single",
+  "prettier.printWidth": 100,
+  "prettier.useTabs": true,
+  "editor.smoothScrolling": true,
+  "editor.trimAutoWhitespace": false
+}
