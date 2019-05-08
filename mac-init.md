@@ -1,12 +1,15 @@
 # New Mac installation tips
-Enable auto-hide dock
-Increase dock speed 
+Enable auto-hide dock/Increase dock speed 
 
 ```
 defaults write com.apple.dock autohide-delay -int 0
 defaults write com.apple.dock autohide-time-modifier -float 0.4
 killall Dock
 ```
+
+Remove last login prompt from terminal
+`cd ~ && touch .hushlogin`
+
 Download Tinkertool 
 
 ### Installing zsh
